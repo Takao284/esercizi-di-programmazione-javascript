@@ -18,3 +18,8 @@
   http://www.imparareaprogrammare.it
 */
 var cats = 44;
+var quantity = 6;
+var row = Math.ceil(cats/quantity);
+var missing = cats%row;
+console.log('row: '+row);
+console.log('missing: '+missing);
